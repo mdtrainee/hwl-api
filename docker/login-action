@@ -1,0 +1,2 @@
+- name: Check secrets
+  run: echo "DOCKER_USERNAME=${{ secrets.DOCKER_USERNAME }}" && echo "DOCKER_PASSWORD=${{ secrets.DOCKER_PASSWORD }}"
